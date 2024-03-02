@@ -1,0 +1,15 @@
+# exercise 3-8 places you'd like to visit
+places = ['Paia', 'London', 'Santa Fe', 'Tokyo', 'Kailua']
+print(places)
+print(sorted(places))
+print(places)
+print(sorted(places, reverse = True))
+print(places)
+places.reverse()
+print(places)
+places.reverse()
+print(places)
+places.sort()
+print(places)
+places.sort(reverse=True)
+print(places)
