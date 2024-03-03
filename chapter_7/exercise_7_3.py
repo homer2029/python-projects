@@ -3,6 +3,7 @@
 # output if it is a multiple of 10
 val = input('Input a number: ')
 
+# this is more than was required of this assignment, but I didn't want to just accept anything...
 while isinstance(val, str):
     try:
         val = int(val)
