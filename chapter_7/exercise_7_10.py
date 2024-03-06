@@ -6,8 +6,11 @@ import re
 
 continue_prompt = 'Are there others to poll? ((y)es/(n)o)'
 
+# nothing in this function is strictly required.
+
 
 def continue_poll(keep_polling: str) -> bool:
+    # not the perfect regex solution, but it keeps some of the riff-raff out :)
     y_n_yes_no_pattern = '^(yes)|y|(no)|n$'
     while not re.search(y_n_yes_no_pattern, keep_polling):
         keep_polling = input(continue_prompt)
