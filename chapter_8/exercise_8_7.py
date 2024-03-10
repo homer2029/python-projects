@@ -3,7 +3,7 @@
 # params artist, album, none number of songs
 # use at least 3 times, at least once with num songs
 def make_album(artist: str, album_name: str, number_of_songs=None) -> dict[str, str]:
-    """Creates a new dictionar that represents an album with artist, album_name, and optional
+    """Creates a new dictionary that represents an album with artist, album_name, and optional
     number_of_songs keys.
 
     Args:
