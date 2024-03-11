@@ -1,6 +1,6 @@
 # exercise 8-8 user albums
 # recreate exercise 8-7 but this time with user input and flow controll in a while loop
-# i went a little bit off the reservation with my implementation here... :-)  XD
+# I went a little bit off the reservation with my implementation here... :-)  XD
 import sys
 
 
@@ -74,5 +74,6 @@ def main(*args, **kwargs) -> None:
     main_pgm_loop()
 
 
+# I think this syntax is kinda dumb... better to just execute lines 73 and 74 than this workup...
 if __name__ == '__main__':
     main(sys.argv)
