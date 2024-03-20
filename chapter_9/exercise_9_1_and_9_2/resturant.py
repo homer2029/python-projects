@@ -15,7 +15,7 @@ class Resturant:
     def describe_resturant(self) -> None:
         """ Prints a description of a resturant.
         """
-        print(f'name: {self.name}\ncusine_type: {self.cusine_type}')
+        print(f'name: {self.name}\ncusine_type: {self.cusine_type}\n')
 
     def open_resturant(self) -> None:
         """ Prints a message indicating the resturant is open.
