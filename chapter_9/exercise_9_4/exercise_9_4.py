@@ -27,6 +27,6 @@ taj_mahal.describe_restaurant()
 taj_mahal.set_number_served(23)
 taj_mahal.increment_number_served(0)
 taj_mahal.increment_number_served(-53)
-taj_mahal.increment_number_served(105_639)  # num served = 105662
+taj_mahal.increment_number_served(105_639)  # num served = 105,662
 print('After')
 taj_mahal.describe_restaurant()
