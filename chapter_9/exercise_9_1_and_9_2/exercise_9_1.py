@@ -1,12 +1,12 @@
-# exercise 9-1 resturant
-# resturant class
+# exercise 9-1 restaurant
+# restaurant class
 # init takes two arguments cusine type and name
-# methods describe resturant and open resturant
-# instantiate the resturant
+# methods describe restaurant and open restaurant
+# instantiate the restaurant
 # separate file and import not required
-from resturant import Resturant
+from restaurant import Restaurant
 
-resturant_1 = Resturant("aaron's place", 'bbq')
+restaurant_1 = Restaurant("aaron's place", 'bbq')
 
-resturant_1.describe_resturant()
-resturant_1.open_resturant()
+restaurant_1.describe_restaurant()
+restaurant_1.open_restaurant()
